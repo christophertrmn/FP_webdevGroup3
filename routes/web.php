@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('coba');
+    return view('profile');
 });
 
 Route::get('/profile', "ProfilerController@index");
