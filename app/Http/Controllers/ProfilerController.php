@@ -11,7 +11,7 @@ class ProfilerController extends Controller
     }
 
     public function index2(){
-        return view("coba");
+        return view("profile");
     }
 
     public function login(){
